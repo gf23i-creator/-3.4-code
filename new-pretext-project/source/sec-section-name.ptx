@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-section-name" xmlns:xi="http://www.w3.org/2001/XInclude">
+ 
+      <title>Distance and the Pythagorean Theorem</title>
+      <p>
+        Calculations for finding distances in elementary geometry rely on two primary useful facts: the <b>Pythagorean Theorem</b> and the formulas for the <b>circumference and area of a circle</b> [1].
+      </p>
+      
+      <figure xml:id="fig-geometry-summary">
+        <caption>Summary of Geometric Formulas</caption>
+        <image source="geometry-formulas-placeholder">
+          <description>A right triangle with sides A, B, and hypotenuse C showing C squared equals A squared plus B squared. A circle showing radius r, diameter d, circumference equals pi times d (or 2 pi r), and area equals pi r squared.</description>
+        </image>
+      </figure>
+
+      <subsection xml:id="subsec-circle-applications">
+        <title>Applications of Circle Geometry</title>
+        <p>
+          Geometric formulas allow for the calculation of speed and perimeter in circular motion [2].
+        </p>
+        <example xml:id="ex-hurl-o-matic">
+          <title>Speed of the Hurl-O-Matic</title>
+          <statement>
+            <p>
+              An aerial view of the "Hurl-O-Matic" carnival ride shows a car attached to the end of a 53-foot arm that rotates around a central hub [2]. If the car completes one full revolution in 15 seconds, calculate its speed in miles per hour (rounded to the nearest tenth) [2]. Note that 5280 feet equals 1 mile [2].
+            </p>
+            <figure xml:id="fig-hurl-o-matic-ride">
+              <image source="hurl-o-matic-placeholder">
+                <description>Aerial view of a circular path with a radius arm labeled 53 feet.</description>
+              </image>
+            </figure>
+          </statement>
+          <solution>
+            <p>
+              First, calculate the distance of one revolution using the circumference formula: <m>2 \cdot \pi \cdot 53\text{ ft} = 333.01\text{ feet}</m> [3]. 
+            </p>
+            <p>
+              Determine the speed in feet per second: <m>333.01\text{ ft} / 15\text{ sec} = 22.2\text{ feet per second}</m> [3].
+            </p>
+            <p>
+              To convert to miles per hour [3]:
+              <ul>
+                <li>Multiply by 60 to find feet per minute: <m>22.2 \times 60 = 1,332\text{ ft/min}</m>.</li>
+                <li>Multiply by 60 again for feet per hour: <m>1,332 \times 60 = 79,920\text{ ft/hr}</m>.</li>
+                <li>Divide by 5280 feet per mile: <m>79,920 / 5280 = 15.14\text{ mph}</m>.</li>
+              </ul>
+            </p>
+            <p>
+              The speed of the car is <b>15.1 miles per hour</b> rounded to the nearest tenth [3].
+            </p>
+          </solution>
+        </example>
+
+        <example xml:id="ex-racetrack">
+          <title>Perimeter of a Track</title>
+          <statement>
+            <p>
+              A racetrack has two straight portions and two semi-circular ends [4]. The straight portion (A) is 361 feet long, and the diameter of the semi-circle (B) is 117 feet [4]. Calculate the total distance Roger runs if he completes 3 laps, using <m>\pi = 3.14</m> and rounding to the nearest foot [4].
+            </p>
+            <figure xml:id="fig-track-geometry">
+              <image source="racetrack-placeholder">
+                <description>Diagram of a track with straight sides labeled A and circular ends with diameter B.</description>
+              </image>
+            </figure>
+          </statement>
+          <solution>
+            <p>
+              A single lap consists of two straight parts and two semi-circles (forming one full circle) [5]:
+              <ul>
+                <li>Two straight sections: <m>361\text{ ft} \cdot 2 = 722\text{ ft}</m> [5].</li>
+                <li>Full circle circumference: <m>\pi \cdot d = 3.14 \cdot 117 = 367.38\text{ ft}</m> [5].</li>
+              </ul>
+            </p>
+            <p>
+              The length of one lap is <m>367.38 + 722 = 1089.38\text{ ft}</m> [5].
+            </p>
+            <p>
+              For 3 laps: <m>1089.38\text{ ft} \cdot 3 = 3,268.14\text{ ft}</m>, which rounds to <b>3,268 feet</b> [5].
+            </p>
+          </solution>
+        </example>
+      </subsection>
+
+      <subsection xml:id="subsec-pythagorean-applications">
+        <title>Applications of the Pythagorean Theorem</title>
+        <p>
+          The Pythagorean Theorem (<m>X^2 + Y^2 = D^2</m>) is used to find the direct distance between two points moving in perpendicular directions [6].
+        </p>
+
+        <example xml:id="ex-tom-jerry">
+          <title>Distance Between Two Runners</title>
+          <statement>
+            <p>
+              Tom and Jerry start at a street corner [7]. Tom runs southward at 7 miles per hour, and Jerry runs eastward at 7 miles per hour [7]. How far apart are they after 30 minutes? Round to the nearest tenth of a mile [7].
+            </p>
+          </statement>
+          <solution>
+            <p>
+              In 30 minutes (0.5 hours), both runners travel: <m>7\text{ mph} \cdot 0.5\text{ hrs} = 3.5\text{ miles}</m> [8].
+            </p>
+            <p>
+              Let <m>X = 3.5</m> and <m>Y = 3.5</m> [8]. Using the theorem:
+              <md>
+                <mrow>X^2 + Y^2 = D^2</mrow>
+                <mrow>(3.5)^2 + (3.5)^2 = D^2</mrow>
+                <mrow>12.25 + 12.25 = D^2</mrow>
+                <mrow>24.5 = D^2</mrow>
+              </md>
+            </p>
+            <p>
+              The direct distance <m>D</m> is approximately <b>4.9 miles</b> rounded to the nearest tenth [8].
+            </p>
+          </solution>
+        </example>
+
+        <example xml:id="ex-city-blocks">
+          <title>Direct Distance in a City</title>
+          <statement>
+            <p>
+              In Ding Dong town, a block measures 80 yards by 80 yards [9]. To go from a restaurant to a parking garage, you travel 15 blocks north and 20 blocks west [9]. Find the direct distance in yards [9].
+            </p>
+          </statement>
+          <solution>
+            <p>
+              Convert block counts to yards [10]:
+              <ul>
+                <li>North distance: <m>15\text{ blocks} \cdot 80\text{ yds} = 1200\text{ yards}</m>.</li>
+                <li>West distance: <m>20\text{ blocks} \cdot 80\text{ yds} = 1600\text{ yards}</m>.</li>
+              </ul>
+            </p>
+            <p>
+              Apply the Pythagorean Theorem: <m>1200^2 + 1600^2 = D^2</m>, resulting in <m>4,000,000 = D^2</m> [10].
+            </p>
+            <p>
+              The direct distance <m>D</m> is <b>2000 yards</b> [10].
+            </p>
+          </solution>
+        </example>
+
+        <exercise xml:id="exer-flagpole">
+          <title>Flagpole Support Wires</title>
+          <statement>
+            <p>
+              A 177-foot-high flagpole is supported by 4 wires [11]. Each wire attaches to the pole 112 feet from the top and to the ground 72 feet from the base [11]. Find the total length of all 4 wires in feet [11].
+            </p>
+          </statement>
+          <solution>
+            <p>
+              First, find the height where the wires connect to the pole: <m>177 - 112 = 65\text{ feet}</m> [12].
+            </p>
+            <p>
+              The ground distance is 72 feet [12]. Calculate the length of one wire (<m>X</m>) [13]:
+              <md>
+                <mrow>65^2 + 72^2 = X^2</mrow>
+                <mrow>4225 + 5184 = 9409 = X^2</mrow>
+                <mrow>X = 97\text{ feet}</mrow>
+              </md>
+            </p>
+            <p>
+              The total length for all 4 wires is <m>4 \cdot 97 =</m> <b>388 feet</b> [13].
+            </p>
+          </solution>
+        </exercise>
+      </subsection>
+
+      <subsection xml:id="subsec-unit-review">
+        <title>Review: Unit Conversions</title>
+        <exercise xml:id="exer-unit-conv">
+          <title>Square Inch to Square Foot Conversion</title>
+          <statement>
+            <p>How many square feet are in 864 square inches [14]?</p>
+          </statement>
+          <solution>
+            <p>
+              Since 1 foot equals 12 inches, one square foot is <m>12\text{ in} \cdot 12\text{ in} = 144\text{ square inches}</m> [15].
+            </p>
+            <p>
+              Divide the total square inches by 144: <m>864 / 144 =</m> <b>6 square feet</b> [15].
+            </p>
+          </solution>
+        </exercise>
+      </subsection>
+    
+    <subsection xml:id="sec-mystery-activity">
+      <title>In-Class Activity: Mystery Locations</title>
+      <p>
+        Participants select three locations in Tallahassee: a starting point (Building X) and two others (Location A and Location B) [16]. After determining the distances between these points (Building X to A, Building X to B, and A to B), participants share only the first two distances with a classmate [16].
+      </p>
+      <p>
+        Classmates then attempt to map the set of all possible points for Location A and Location B [16]. If Location A is due north and Location B is due east from Building X, the Pythagorean Theorem can determine the distance between A and B [17]. Students should discuss the minimum and maximum possible values for this third distance based on the provided information [17].
+      </p>
+    </subsection>
+ </section>
